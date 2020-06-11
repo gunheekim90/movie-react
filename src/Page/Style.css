@@ -1,0 +1,88 @@
+.About {
+    border: 5px solid purple;
+    margin: 3%;
+    padding: 100px;
+}
+
+.New {
+    border: 5px solid purple;
+    margin: 3%;
+}
+
+.Popular {
+    border: 5px solid #fff;
+    margin: 3%;
+    height: 700px;
+    overflow-y: scroll;
+}
+
+.Search {
+    border: 5px solid purple;
+    margin: 3%;
+}
+
+.MovieImage {
+    display: inline-block;
+    margin: 30px;
+
+}
+
+.MovieImageStyle {
+    border-radius: 20px;
+}
+
+.MovieTitle {
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.PageHeader {
+    margin: 0;
+}
+
+input {
+    outline: none;
+}
+
+.SearchInput {
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 200%;
+    text-align: center;
+}
+
+.KeywordTag {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background: deeppink;
+    color: #fff;
+}
+
+.DetailLeft {
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.DetailRight {
+    text-align: left;
+    margin-left: -20px;
+    margin-top: 50px;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.DetailTag {
+    margin-left: -10px;
+}

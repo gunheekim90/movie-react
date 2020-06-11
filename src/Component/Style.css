@@ -1,0 +1,48 @@
+.Header {
+    text-align: center;
+}
+
+.HeaderTitle {
+    margin-top: 5px;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    width: 620px;
+    margin: auto;
+    margin-top: -25px;
+}
+
+.HeaderPage {
+    position: absolute;
+    top: 20%;
+
+    text-align: center;
+    width: 100%;
+}
+
+li {
+    text-decoration: none;
+    margin: 30px;
+    font-size: 150%;
+    border-radius: 20px;
+    /* padding: 10px; */
+    float: left;
+
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
